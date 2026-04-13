@@ -16,9 +16,9 @@ export default function AboutPage() {
 
       <div className="about-body">
         <p>
-          I came to writing the way most people come to anything that matters —
+          I came to writing the way most people come to anything that matters,
           not by choosing it, but by finding that I couldn&apos;t stop. It started
-          as notebooks filled on trains, then documents no one was meant to
+          as notebooks, then documents no one was meant to
           read, then slowly, reluctantly, a blog. Writing, I have come to
           believe, is less a skill and more a method. A way of forcing yourself
           to actually think rather than just nod along to the stream of feeling
@@ -26,8 +26,8 @@ export default function AboutPage() {
         </p>
 
         <p>
-          I write about ideas — the professional kind, the kind that sits at
-          the edge of disciplines and refuses to be tidy. I write about my
+          I write about ideas, the professional kind, the kind that sits at
+          the edge of disciplines and refuses to be leave the head. I write about my
           personal life, though carefully and selectively, because I believe
           honesty has value only when it costs something. And lately I write
           about fatherhood, which has been the most disorienting and clarifying
@@ -43,17 +43,17 @@ export default function AboutPage() {
         <p>
           My son is a toddler. He is at the age where everything is a
           question and every question requires a full answer. Watching him
-          encounter the world — its colours, its textures, its inexplicable
-          injustices like being told it&apos;s time to stop playing — has made me
+          encounter the world, its colours, its textures, its inexplicable
+          injustices like being told it&apos;s time to stop playing, has made me
           look more carefully at the world myself. Children are the closest
           thing most of us will get to fieldwork in pure wonder.
         </p>
 
         <p>
-          I think about attention a lot. We live in a time that profits from
+          I also think about attention a lot. We live in a time that profits from
           distraction, that has turned fragmentation into an aesthetic. I am
           not interested in being efficient with my attention. I am interested
-          in being present with it — in reading slowly, thinking slowly,
+          in being present with it, in reading slowly, thinking slowly,
           writing slowly, and accepting that the things worth understanding
           almost never yield to the first reading.
         </p>
@@ -68,17 +68,17 @@ export default function AboutPage() {
         </p>
 
         <p>
-          <strong>Essays</strong> — Long-form thinking on professional ideas,
+          <strong>Essays</strong>: Long-form thinking on professional ideas,
           culture, books, and the things I cannot stop turning over in my head.
         </p>
 
         <p>
-          <strong>Reflections</strong> — More personal. Quieter. The kind of
+          <strong>Reflections</strong> : More personal. Quieter. The kind of
           writing that is harder to explain and easier to feel.
         </p>
 
         <p>
-          <strong>Fatherhood</strong> — Dispatches from the floor, from
+          <strong>Fatherhood</strong> : Dispatches from the floor, from
           bedtime, from the long slow work of watching a person become
           themselves.
         </p>
@@ -87,7 +87,7 @@ export default function AboutPage() {
 
         <p>
           I love hearing from readers. Write to me at{" "}
-          <a href="mailto:hello@saikrishna.com">hello@saikrishna.com</a>. I
+          <a href="mailto:weforchange009@gmail.com">weforchange009@gmail.com</a>. I
           read every message; I reply when I can.
         </p>
 

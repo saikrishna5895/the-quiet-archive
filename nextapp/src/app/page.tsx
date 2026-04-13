@@ -17,10 +17,10 @@ export default function HomePage() {
       <section className="home-hero">
         <p className="intro">
           I write to understand.<br />
-          These pages hold what I am still working out —<br />
+          These pages hold what I am still working out: <br />
           about ideas, about fatherhood, about being alive and paying attention.
         </p>
-        <p className="byline">Sai Krishna · Essays, reflections, fatherhood</p>
+        <p className="byline"> Essays, reflections, fatherhood</p>
       </section>
 
       <hr />
