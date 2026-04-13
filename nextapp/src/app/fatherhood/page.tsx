@@ -17,7 +17,7 @@ export default function FatherhoodPage() {
         <span className="label">Fatherhood</span>
         <h1>On Being a Father</h1>
         <p className="lede">
-          These are the small dispatches — from the floor, from bedtime, from
+          These are the small dispatches,from the floor, from bedtime, from
           the long afternoons when a toddler teaches you more than any book
           ever could.
         </p>
