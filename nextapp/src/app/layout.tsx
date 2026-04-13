@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ReadingProgress from "@/components/ReadingProgress";
 
 export const metadata: Metadata = {
   title: {
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   },
   description:
     "A personal blog on writing, ideas, and fatherhood. Essays, reflections, and notes from a life examined.",
-  metadataBase: new URL("https://saikrishna.com"),
+  metadataBase: new URL("https://thequietarchive.net"),
   openGraph: {
     siteName: "The Quiet Archive",
     type: "website",
@@ -29,6 +30,12 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')})()`,
+          }}
+        />
+        <ReadingProgress />
         <div className="site-wrapper">
           <Header />
           <main>{children}</main>

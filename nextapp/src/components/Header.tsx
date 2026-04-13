@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import DarkModeToggle from "./DarkModeToggle";
 
 const navLinks = [
   { href: "/writing", label: "Writing" },
@@ -63,6 +64,7 @@ export default function Header() {
               {label}
             </Link>
           ))}
+          <DarkModeToggle />
         </nav>
       </div>
     </header>
