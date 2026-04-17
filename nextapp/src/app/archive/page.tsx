@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts, formatShortDate, getYear } from "@/lib/posts";
 
+export const revalidate = 3600; // revalidate every hour
+
 export const metadata: Metadata = {
   title: "Archive",
   description:

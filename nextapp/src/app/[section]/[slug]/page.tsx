@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug, formatDate } from "@/lib/posts";
+
+export const revalidate = 3600; // revalidate every hour
 import type { Metadata } from "next";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
