@@ -1,0 +1,61 @@
+# Allow all general search engines for SEO
+User-agent: *
+Allow: /
+
+# Specifically block AI training and intensive scrapers to protect content
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Anthropic-AI
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+# Block generic scraper libraries
+User-agent: Scrapy
+Disallow: /
+
+User-agent: node-fetch
+Disallow: /
+
+User-agent: axios
+Disallow: /
+
+User-agent: python-requests
+Disallow: /
+
+# Link to sitemap if you had one, but we'll stick to basic protection for now
